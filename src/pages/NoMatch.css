@@ -1,0 +1,14 @@
+.title-noMatch {
+   animation: rotate 10s infinite;
+   position: absolute;
+   left: 200px;
+   top: 200px;
+   box-decoration-break: 1px 1px 1px black;
+}
+
+@keyframes rotate {
+    from { 
+        transform: rotate(360deg);
+        letter-spacing: 20px;
+    }
+}

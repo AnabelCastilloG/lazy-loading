@@ -1,0 +1,22 @@
+ul {
+    display: flex;
+    gap: 10px;
+    padding: 1rem;
+    list-style: none;
+    justify-content: center;
+    background-color: rgba(8, 43, 238, 0.822);
+    
+}
+li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    padding: .5rem;
+    border-radius: 10px;
+    
+}
+li a:hover {
+    background-color: rgba(0, 204, 255, 0.479);
+    box-shadow: 5px 5px 5px black;
+}
